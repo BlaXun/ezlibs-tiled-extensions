@@ -27,6 +27,7 @@ var mysteryDataTool = tiled.registerTool("MysteryData", {
       tiled.alert(
         'Please select a tile to place a mystery data. After placing a mystery data you can use the "Place Mystery Option"-Tool'
       );
+      return;
     }
 
     var objectLayer = this.map.currentLayer;
